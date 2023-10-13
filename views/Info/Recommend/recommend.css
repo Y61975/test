@@ -1,0 +1,66 @@
+.swip {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}
+.recom_title {
+  text-align: center;
+  color: #b4b4b4;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.detail_title {
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  color: #b4b4b4;
+  background-color: #f1f1f1;
+  padding: 15px 0;
+  margin-bottom: 20px;
+}
+
+.detaillist img {
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+.detaillist>p{
+  margin: 0;
+  padding: 0px;
+}
+.banlist {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.banlist .bangood {
+  padding: 5px;
+  width: 30%;
+  
+}
+
+.banlist .bangood > p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}
+.banlist .bangood >img{
+    width: 100%;
+}
+.banlist .bangood .recomname{
+    color: #444;
+    font-size: 14px;
+    margin: 7px 0;
+}
+.banlist .bangood .recomprice{
+    color: #ff0000;
+    font-size: 17px;
+    font-weight: 700;
+}

@@ -1,0 +1,33 @@
+.topNav{
+    height: 46px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    background: rgba(255,255,255,0);
+    z-index: 999;
+}
+.topbtn{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: rgba(231,231,231, 0.3);
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.topLeft{
+    left: 13px;
+}
+.topRight{
+    right: 13px;
+} 
+.rv-sticky{
+    display: none;
+    z-index: 1000;
+}
+.rv-swiper{
+    min-height: 50vh;
+}

@@ -1,0 +1,39 @@
+.carnav{
+    background-color: #E93323;
+    color: #fff;
+}
+.submitbtn{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    bottom: 50px;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 0 auto;
+    position: fixed;
+    background-color: #fff;
+}
+.total{
+    text-align: center;
+     padding-top: 12px;
+}
+.total .total_one{
+    color: #323232;
+    font-size: 14px;
+}
+.total .total_two{
+    color: #f44336;
+    font-size: 13px;
+}
+.carstep{
+    display: flex;
+    justify-content: end;
+}
+.rv-stepper--round .rv-stepper__plus{
+    background-color: #e93323;
+}
+.rv-stepper--round .rv-stepper__minus{
+    border-color: #e93323;
+    color: #e93323;
+}
+

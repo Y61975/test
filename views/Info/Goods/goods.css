@@ -1,0 +1,114 @@
+.goodsinfo {
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}
+.godprice {
+  color: red;
+  font-weight: 700;
+}
+.godname {
+  font-weight: bold;
+  font-size: 17px;
+  color: #000;
+  margin: 10px 0;
+  line-height: 30px;
+}
+.godsale {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: #b4b4b4;
+}
+.selegod {
+  font-size: 15px;
+  color: #b4b4b4;
+}
+.selegod > span {
+  color: #444;
+}
+.seleinfo {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.seleinfo .selepic {
+  width: 25%;
+}
+.seleinfo .selepic > img {
+  width: 100%;
+}
+.seleinfo .selemsg{
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.seleinfo .selemsg > p {
+  margin: 0;
+}
+.seleinfo .selemsg .s1 {
+    font-size:15px;
+    height: 40px;
+    overflow: hidden;
+    /* padding-right: 20px; */
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 100%;
+}
+.seleinfo .selemsg .s2{
+    color: #ff7600;
+    font-size: 19px;
+}
+.seleinfo .selemsg .s3{
+    font-size: 13px;
+    color: #919191;
+}
+.selesort{
+    padding: 10px 20px;
+}
+.selesort .selelist{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 10px;
+}
+.selesort .selelist .listitem{
+    background-color: #f1f1f1;
+    border: 1px solid #fff;
+    border-radius:30px;
+    font-size: 13px;
+    margin: 0 10px 10px 0;
+    padding: 8px 15px;
+}
+.sele_active{
+    background-color: #fdebe9!important;
+    border: 1px solid #e93323;
+    color: #e93323!important;
+}
+
+.coment{
+    background: #fff;
+    border-radius: 1.333vw;
+    margin: 0 auto;
+    padding: 10px;
+    width: 90%;
+}
+.coment .usercontent{
+    width: 100%;
+    height: 100px;
+}
+.godnum{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 4px;
+  margin: 10px auto;
+  padding: 10px;
+  width: 90%;
+}

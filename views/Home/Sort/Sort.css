@@ -1,0 +1,77 @@
+.nav {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav p {
+  margin: 0;
+}
+.nav_list {
+  text-align: center;
+}
+.top {
+  font-size: 15px;
+  color: #333;
+}
+.btom {
+  font-size: 12px;
+  color: #a5a5a5;
+}
+.active_top {
+  color: #e93323;
+}
+.active_btom {
+  background-color: #e93323;
+  border-radius: 10px;
+  color: #fff;
+}
+.goodsList {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 95%;
+  min-height: 100vh;
+}
+.goodsList .goods_item {
+  margin: 5px 0 10px 0;
+  border-radius: 4px;
+  width: 48%;
+}
+.goods_item > img {
+  width: 100%;
+  border-top-right-radius: 6px;
+  border-top-left-radius: 6px;
+}
+.goods_info {
+  padding: 10px;
+  background-color: #fff;
+}
+.goods_info > p {
+  margin: 0;
+}
+.goods_info .goodsName {
+  font-size: 14px;
+  color: #000000;
+  display: -webkit-box; /* 将容器设置为弹性盒子布局 */
+  -webkit-box-orient: vertical; /* 设置子元素垂直排列 */
+  -webkit-line-clamp: 2; /* 限制显示 2 行 */
+  overflow: hidden; /* 隐藏多余内容 */
+  text-overflow: ellipsis; /* 显示省略号 */
+}
+.goods_info .old_price {
+  font-size: 14px;
+  color: #d8d8d8;
+  text-decoration: line-through;
+  margin-top: 5px;
+}
+.goods_info .new_price {
+  font-size: 17px;
+  color: red;
+  font-weight: 700;
+  margin-top: 5px;
+}
+/* .goods_info .lazy{
+    width: 48%;
+    height: 100%;
+} */

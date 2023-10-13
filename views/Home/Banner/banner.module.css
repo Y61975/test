@@ -1,0 +1,22 @@
+.bane{
+    width: 100%;
+    background: linear-gradient(rgb(233, 51, 35), white);
+}
+.gradient{
+    width:95%;
+    margin:auto;
+    height:160px;
+}
+.menu{
+    width: 100%;
+    background-color: #F1F1F1;
+}
+.menu .list{
+    width: 95%;
+    margin: auto;
+    border-radius: 4px;
+}
+.menu .menuName{
+    font-size: 12px;
+    color: #333;
+}

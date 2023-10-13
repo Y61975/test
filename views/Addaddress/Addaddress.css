@@ -1,0 +1,31 @@
+.rv-nav-bar {
+  background-color: red;
+}
+.rv-nav-bar .rv-icon {
+  color: #fff;
+}
+.rv-nav-bar__title {
+  color: #fff;
+}
+#addaddress {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #f1f1f1;
+}
+.field {
+  width: 95%;
+  margin: 20px auto;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.defaultAddress{
+  box-sizing: border-box;
+  padding: 10px;
+  border-top: 1px solid #f1f1f1;
+  font-size: 14px;
+  margin: 10px ;
+}
+.mybtn{
+  width: 95%;
+  margin: 40px auto;
+}

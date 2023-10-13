@@ -1,0 +1,57 @@
+.rv-nav-bar{
+    background-color: red;
+   
+}
+.rv-nav-bar .rv-icon{
+     color: #fff;
+}
+.rv-nav-bar__title{
+    color: #fff;
+}
+#address{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #f1f1f1;
+}
+.list{
+    width: 95%;
+    margin: 10px auto;
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+.list .username{
+    font-size: 15px;
+    font-weight: bolder;
+}
+.list .addressinfo{
+    font-size: 13px;
+    color: #919191;
+    margin: 10px 0;
+}
+.list .rv-checkbox__label{
+    font-size: 13px;
+}
+.list .actions{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+    line-height: 30px;
+    padding: 10px 0;
+    border-top: 1px solid #f1f1f1;
+}
+.list .actions .edit{
+    font-size: 13px;
+    color: #b4b4b4;
+}
+.list .actions .edit>span{
+    margin-right: 10px;
+}
+ .btn{
+    width: 90%;
+    position: fixed;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
